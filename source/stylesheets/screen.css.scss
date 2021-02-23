@@ -455,6 +455,16 @@ html, body {
     border-radius: 3px;
     @extend %break-words;
     @extend %code-font;
+
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+    // margin-top: 10px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    // width: 100%;
+    font-weight: bold;
+    //box-sizing: border-box;
+    //display: block;
   }
 
   pre>code {
@@ -630,4 +640,21 @@ html, body {
 
 .copy-clipboard:hover {
   opacity: 0.8;
+}
+
+
+.api {
+  padding-top: 20px;
+  padding-bottom:20px;
+  // padding-left: 27px;
+  // padding-right: 27px;
+  font-weight: bold;
+  background-color:#23689b !important;
+  color: #ffffff;
+  // box-sizing: border-box;
+  // display:block;
+  // margin-left: -28px;
+  // margin-right: -28px;
+
+  @extend %left-col;
 }
